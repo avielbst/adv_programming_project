@@ -1,21 +1,24 @@
-Title: Supersense - Comparison between experienced and non experienced users
+# Supersense - Comparison between experienced and non experienced users
 GROUP: AC
-================
+___
 Description of contents:
+
 PROJECT_AC - Our 3 pages long report and code at the end
+
 Project.Rmd - Rmarkdown file that contains the code we used during our research
-================
+___
+
 To reproduce our dataset:
 1. Download "supersense_with_session_time" from Google Drive link https://drive.google.com/drive/u/1/folders/0APVXBpxX-CJqUk9PVA
 2. Open Project.Rmd code file
 3. Change line 89 (read.csv) path to the path where the data file is
 4. Change line 114 to the path where the data is
 5. Run all chunks in Project.Rmd
-================
+___
 Link to github repository: https://github.com/avielbst/adv_programming_project/
-================
+___
 # SISE2601 Project data description
-================
+
 Here we can see information about all columns that we used during our analysis (Not in the final model)
   * **event_date** - `char`Date in which the event happened (in our dataset we only have 2021-01-31).
   * **event_timestamp** - `dbl`Counts the micro seconds passed from 1970-01-01 to the event.
